@@ -6,7 +6,7 @@ function Pokemones() {
     const [listPokemons, setListPokemons] = useState<Array<any>>([])
     const [response, setResponse] = useState<any>({})
     const [loading, setLoading] = useState<boolean>(false);
-
+    // Llamamos los datos de los pokemones
     const getAllPokemons = async (url: string) => {
         const requestOptions = {
             method: 'GET',
