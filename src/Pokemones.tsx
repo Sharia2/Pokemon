@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./pokemones.css"
 
-
+// esta funcion hace las peticiones al poke api
 function Pokemones() {
     const [listPokemons, setListPokemons] = useState<Array<any>>([])
     const [response, setResponse] = useState<any>({})
