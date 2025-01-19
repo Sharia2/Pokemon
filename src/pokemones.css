@@ -1,0 +1,24 @@
+.pokemones-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.pokemon-item {
+    background-color: #d67e2b;
+    border: 3px solid white;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.buttons-continer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
